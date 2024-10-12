@@ -21,7 +21,7 @@
    */
 
   --bright-navy-blue: rgb(0,83,33);
-  --united-nations-blue: hsl(133, 97%, 36%);
+  --united-nations-blue: rgb(4, 141, 4);
   --spanish-gray: hsl(0, 0%, 60%);
   --black-coral: hsl(225, 8%, 42%);
   --oxford-blue: hsl(208, 97%, 12%);
@@ -256,7 +256,7 @@ body { background: var(--white); }
 
 .header-top .logo { margin-inline: auto; }
 
-.header-top .logo img { max-width: 70px;max-height: 60px; }
+.header-top .logo img { max-width: 70px; max-height: 50px; }
 
 .header-btn-group {
   justify-self: flex-end;
@@ -387,7 +387,7 @@ body { background: var(--white); }
   display: grid;
   place-items: center;
   min-height: 600px;
-  margin-top: 90px;
+  margin-top: 70px;
   text-align: center;
   padding-top: 125px;
 }
@@ -700,7 +700,7 @@ body { background: var(--white); }
 
 .footer-brand { margin-bottom: 30px; }
 
-.footer-brand img { width: 180px; }
+.footer-brand img { width: 180px;  }
 
 .footer-brand .logo { margin-bottom: 20px; }
 
