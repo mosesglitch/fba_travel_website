@@ -230,7 +230,8 @@ body { background: var(--white); }
 
 .header.active .header-top {
   position: fixed;
-  background: var(--gunmetal);
+  /* background: var(--gunmetal); */
+  background: white;
 }
 
 .header-top .container {
