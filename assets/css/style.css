@@ -20,8 +20,8 @@
    * colors
    */
 
-  --united-nations-blue: rgb(0,83,33);
-  --bright-navy-blue: hsl(140, 84%, 46%);
+  --bright-navy-blue: rgb(0,83,33);
+  --united-nations-blue: hsl(133, 97%, 36%);
   --spanish-gray: hsl(0, 0%, 60%);
   --black-coral: hsl(225, 8%, 42%);
   --oxford-blue: hsl(208, 97%, 12%);
@@ -241,12 +241,15 @@ body { background: var(--white); }
 }
 
 .helpline-box .wrapper { display: none; }
+.helpline-box .wrapper .helpline-title .helpline-number { display: none; color: black; }
 
 .helpline-box .icon-box {
   background: var(--bright-navy-blue);
   padding: 6px;
   border-radius: 50%;
   color: var(--white);
+  /* color: black; */
+
 }
 
 .helpline-box .icon-box ion-icon { --ionicon-stroke-width: 40px; }
@@ -266,7 +269,7 @@ body { background: var(--white); }
 .search-btn,
 .nav-open-btn {
   font-size: 30px;
-  color: inherit;
+  color: black;
 }
 
 .search-btn { font-size: 20px; }
@@ -375,15 +378,16 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero-banner.jpg");
+  background-image: url("../images/hero-banner.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: hsla(0, 0%, 0%, 0.7);
+  /* background-color: hsla(0, 0%, 5%, 0.7); */
   background-blend-mode: overlay;
   display: grid;
   place-items: center;
   min-height: 600px;
+  margin-top: 90px;
   text-align: center;
   padding-top: 125px;
 }
@@ -948,7 +952,14 @@ address {
 
   .popular-card .card-content { right: auto; }
 
-
+.helpline-title{
+  color: black;
+  /* background-color: aqua; */
+}
+.helpline-number{
+  color: black;
+  /* background-color: aqua; */
+}
 
   /**
    * FOOTER
@@ -1022,7 +1033,7 @@ address {
 
   .helpline-box .wrapper {
     display: block;
-    color: var(--white);
+    /* color: var(--white); */
     font-size: var(--fs-6);
   }
 
